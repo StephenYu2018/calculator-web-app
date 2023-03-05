@@ -1,0 +1,23 @@
+.calculator {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  display: flex;
+}
+
+.digit {
+  display: grid;
+  grid-template: repeat(4, 1fr) / repeat(3, 1fr);
+}
+
+.basic-operator {
+  display: grid;
+  grid-template: repeat(4, 1fr) / 1fr;
+}
+
+.display-operator {
+  display: grid;
+  grid-template: 1fr 1fr 2fr / 1fr; 
+}
